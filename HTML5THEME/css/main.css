@@ -281,19 +281,27 @@ textarea {
     }
 }
 
-p{
 
+
+
+
+
+/* Header */
+#rechts{
+    margin-left: 13rem;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 
 nav li {
     float: left;
+    margin-left: 2rem;
 }
 
 nav li a {
@@ -303,17 +311,35 @@ nav li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
-nav li a:hover {
-    background-color: #111;
+nav li a:hover{
+    text-decoration: underline;
 }
+.login{
+    width: 3rem;
+    margin-top: -0.5rem;
+
+}
+
+.title_menu{
+    margin-top: -1rem;
+}
+.container_header li{
+    padding-top: 1rem;
+}
+.container_header{
+}
+.logo{
+    padding-left: 1rem;
+    width: 4rem;
+}
+/* footer */
 footer{
     position: relative;
     right: 0;
     bottom: 0;
     left: 0;
     padding: 1rem;
-    background-color: #efefef;
+    background-color: black;
     text-align: center;
     margin-top: 2rem;
     clear: both;
@@ -321,67 +347,87 @@ footer{
     height: 3em;
 
 }
-aside{
-    float: right;
-    width: 10%;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
-    background: #efefef;
-    border-radius: 6px;
+.footer_link li a{
     display: block;
-    padding: 24px 15px;
     text-align: center;
-
+    color: whitesmoke;
+    text-decoration: none;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
-aside ul {
-    list-style-type: circle;
-    margin: 0;
+.footer_link{
+    list-style: none;
+    margin-left: 35%;
     padding: 0;
     overflow: hidden;
-}
 
-aside li {
+}
+.footer_link li{
     float: left;
 }
-
-aside li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+/* Home */
+.title{
+    margin-top: -10rem;
+    width: 100%;
 }
-
-aside li a:hover {
-    color: darkgray;
-}
-article{
-    width: 40%;
-    margin-left: 2rem;
-    margin-top: 1rem;;
-    background: #efefef;
-    border-radius: 6px;
-    display: block;
-    padding: 24px 15px;
-}
-section{
-    width: 30%;
-    margin-left: 2rem;
-    margin-top: 1rem;;
-    margin-bottom: 2rem;
-    background-color: #555555;
+.title h1 a{
+    margin-left: 38%;
     color: whitesmoke;
-    border-radius: 6px;
-    display: block;
-    padding: 24px 15px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 3px;
+    padding: 1rem;
+}
+.title h1 a:hover{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    color: black;
+    background-color: whitesmoke;
+}
+.img_main{
+    width: 100%;
+}
+#what{
+    float: left;
+    width: 20rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+.button {
+    background-color: black;
+    color: white;
+    border-color: black;
+    border-width: 3px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 17rem;
+    padding: 1rem;
+    float: left;
+    margin-top: 1rem;
 }
-p, h1, h2, h3, h4{
-    margin-left: 2rem;
+.button:hover{
+    background-color: whitesmoke;
+    border-color: black;
+    border-width: 3px;
+    color: black;
 }
-
-header{
-    border-radius: 6px;
-    background-color: #cccccc;
-    padding: 0.5rem;
+form{
+    width: 10rem;
+    float: right;
+    margin-right: 15rem;
+    margin-top: 5rem;
+}
+.input{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-color: black;
+    border-width: 3px;
+    width: 15rem;
 }
